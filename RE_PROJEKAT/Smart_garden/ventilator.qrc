@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/ventilator">
+        <file>ventilator.png</file>
+    </qresource>
+</RCC>

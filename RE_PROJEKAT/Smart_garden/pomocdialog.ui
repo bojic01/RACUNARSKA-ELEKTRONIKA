@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pomocDialog</class>
+ <widget class="QDialog" name="pomocDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>541</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Dobro dosli u help centar Vase pametne baste.U okviru ovog fajla,bice Vam objasnejno kako da koristitie Vasu pametnu bastu.Kao sto se vidi na pocetku pokretanja programa,sa leve starne se nalze ikonice koje omogucavaju rucno promenu parametara,,centralni deo sadrzi ocitavanaj senzora temperature,kolicine svetlosti,i vlaznosti zemljista.U donjem desnom uglu se nalaze modovi u kojima ce da radi pametna basta.Na osnovu svega gore navedenog,ovaj dokument ce imati 3 celine:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1)Objasnjenje ikonica&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2)Vrednsoti senzora u centralnom delu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;3)Modovi  rada&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;1.UPOTREBA IKONICA&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Termostat&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-Pritiskom na ovu ikoniocu moguce je podesavanje praga temperature,tj vrednosti temperature pri kojoj ce se aktivirati ventilator za hladjenje/grejanje.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Sijalica&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-u okviru ove kartice moguce je podesavnaje da li ce svetlo biti ukljuceno ili ne.Ako se korisnik odluci da ukljuci svetlo nudi mu se opciaj da podesi vreme koliko dugo ce sveto biti ukljuceno,kao i da podesi intenzitet jacine svetlosti.Ako se ipak odluci da svetlo bude iskljuceno onda ce biljke biti u mraku kada nema sunceve svetlsoti.Kod podesavanja vremena,postavlajju se vednosti od 1 do 12,a dodavanjem AM ILI PM sisitem automatski prepoznaje o kom vremeu se radi(npr ako podesite 1:00:00AM treitrace ga kao 1h ujutru,a ako se posatvi 1:00:00PM tretira ga kao 13h popodne)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Ventilator&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-u ovoj kartici podesavamo briznu kojom ce ventilator da radi kada temeratura predje prag podesen u kartici termostat.Brizne idu od 1 do 5.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Zalivanje&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-u okviru ove kartice korisnik konfigurise brzinu zalivanja,tj protoka vode kao i prag vaznosti zemljista kada treba ukljuciti zalivanje.Brzine idu od 1 do 5,a vlaznost od 0% do 100%&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;2.OCITAVANJA SENZORA&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;    Kao sto je ranije receno centralni deo ce ciniti ocitavanja 3 senozra:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Senzor temperature&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; ocitava spoljnu temepraturu&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Senzor kolicine svetlosti&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;,ocitava kolika je jacina svetlsoti koja pada na biljku.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;3)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Senzor vlaznosti zemljista &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ocitava vlaznost zemljista gde se nalzi biljka&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;3.REZIMI RADA&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;    Postoje dva rezima rada:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Manuelni rezim rada&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; gde korsinik pomocu kartica(objasnejnih u glavi 1),modeluje po svom nahodjenju kako ce sistem najbolje da radi.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Automatski rezim rada&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; u okviru ovog rezima sve se desava automatski i svi parametri su podeseni u softveru,tj korisnik nema mogucnost da ih menja.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

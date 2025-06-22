@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/pomoc">
+        <file>pomoc.png</file>
+    </qresource>
+</RCC>

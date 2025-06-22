@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/zalivanje">
+        <file>zalivanje.png</file>
+    </qresource>
+</RCC>

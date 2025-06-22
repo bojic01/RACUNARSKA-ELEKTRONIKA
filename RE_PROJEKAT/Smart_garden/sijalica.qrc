@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sijalica">
+        <file>sijalica.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/termostat">
+        <file>termostat.png</file>
+    </qresource>
+</RCC>
